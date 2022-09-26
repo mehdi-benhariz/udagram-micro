@@ -17,5 +17,5 @@ script:
   - docker tag udagram-reverseproxy mehdieng/udagram-reverseproxy:v1
 
 after_success:
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "$DOCKER_PASSWORD" | docker login -u "$g" --password-stdin
   - docker push mehdieng/udagram-reverseproxy:v1

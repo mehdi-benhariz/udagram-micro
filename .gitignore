@@ -11,7 +11,8 @@ log.txt
 *.sublime-workspace
 .vscode/
 npm-debug.log*
-
+set_env.sh
+.env
 .idea/
 .ionic/
 .sourcemaps/
@@ -40,5 +41,3 @@ venv/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-set_env.sh
-.env
