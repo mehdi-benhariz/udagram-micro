@@ -1,0 +1,12 @@
+apiVersion: v1
+metadata:
+  name: mysecret
+  namespace: default
+data:
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: database-1.ctwxsu8lwesh.us-east-1.rds.amazonaws.com
+  AWS_BUCKET: my-428220167104-bucket
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  URL: http://localhost:8100
+kind: ConfigMap
