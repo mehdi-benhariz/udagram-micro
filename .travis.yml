@@ -24,7 +24,7 @@ script:
   - docker tag udagram-reverseproxy mehdieng/udagram-reverseproxy:v1
 
   - docker build -t udagram-frontend ./udagram-frontend
-  - docker tag udagram-frontend mehdieng/udagram-frontend:v1
+  - docker tag udagram-frontend mehdieng/udagram-frontend:local
     # another option using docker-compose:
     # docker image prune --all
     # docker-compose -f docker-compose-build.yaml build --parallel
