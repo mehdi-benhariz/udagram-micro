@@ -1,12 +1,16 @@
 apiVersion: v1
 metadata:
-  name: mysecret
+  name: env-configmap
   namespace: default
 data:
   POSTGRES_DB: postgres
   POSTGRES_HOST: database-1.cllzzycevlbu.us-east-1.rds.amazonaws.com
+  JWT_SECRET: testing
   AWS_BUCKET: my-428220167104-bucket
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   URL: http://localhost:8100
+  EMAIL_ONE: benharizmehdi20@gmail.com
+  EMAIL_TWO: mehdiben@gmail.com
+  PASSWORD: ben
 kind: ConfigMap

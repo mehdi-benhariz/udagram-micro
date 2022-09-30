@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: reverseproxy
-          image: mehdieng/reverseproxy:v1
+          image: mehdieng/udagram-reverseproxy:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
